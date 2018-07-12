@@ -107,7 +107,6 @@ export default Mixin.create(setValidityMixin, {
 
   init() {
     this._super(...arguments);
-    set(this, 'errors', Errors.create());
     this.dependentValidationKeys = {};
     this.validators = emberArray();
 
