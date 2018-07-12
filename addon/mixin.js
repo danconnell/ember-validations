@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import Errors from 'ember-validations/errors';
 import Base from 'ember-validations/validators/base';
-import getOwner from 'ember-getowner-polyfill';
+import { getOwner } from '@ember/application';
 
 const {
   A: emberArray,
